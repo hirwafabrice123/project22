@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(255, 255, 253);
+    color: black;
+    
+}
+ul{
+    list-style-type: none;
+    
+}
+.navigation{
+    
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation .nav .nav-list{
+    display: inline;
+   
+}
+.navigation .nav{
+    float: right;
+}
+.nav li{
+ margin: 20px;   
+    
+}
+button{
+    width: 20%;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+    text-align: center;
+    
+}
+
+h2{
+    text-align: center;
+
+
+
+    
+}
+
+img{
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+}
+{
+    display: flex;
+     flex-direction :row ;
+     justify-content: center;
+}
+.portfolio-decription-container p{
+    margin: 10px;
+}
+.team .image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.team .image .image1{
+    margin: 30px;
+}
